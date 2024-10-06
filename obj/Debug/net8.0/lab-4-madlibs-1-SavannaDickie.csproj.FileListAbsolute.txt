@@ -1,0 +1,15 @@
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/bin/Debug/net8.0/lab-4-madlibs-1-SavannaDickie
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/bin/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.deps.json
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/bin/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.runtimeconfig.json
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/bin/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/bin/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.pdb
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.AssemblyInfoInputs.cache
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.AssemblyInfo.cs
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.csproj.CoreCompileInputs.cache
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.sourcelink.json
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/refint/lab-4-madlibs-1-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.pdb
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/lab-4-madlibs-1-SavannaDickie.genruntimeconfig.cache
+/Users/personal3/Downloads/code/mycodedir/lab-4-madlibs-1-SavannaDickie/obj/Debug/net8.0/ref/lab-4-madlibs-1-SavannaDickie.dll
