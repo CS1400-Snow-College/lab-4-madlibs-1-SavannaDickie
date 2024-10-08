@@ -50,7 +50,7 @@ foreach(string word in storyWords)//for(int i = 0; i < storyWords.Length; i++);
    }
    //if(!word.EndsWith('.'))
    //{
-    //    newStory += ".";
+    //    newStory
    //}
 } 
 Console.WriteLine();
