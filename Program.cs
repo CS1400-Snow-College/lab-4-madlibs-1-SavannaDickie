@@ -11,32 +11,54 @@ string originalStory = "A vacation is when you take a trip to some (adjective) p
 //string originalStory = "A vacation is when you take a trip to some (adjective) place with your (adjective) family. Usually, you go to some place that is near a/an (noun) or up on a/an (noun ). A good vacation place is one where you can ride (plural_noun) or play (game) or go hunting for (plural noun). I like to spend my time (verb_ending_in_ing) or (verb_ending_in_"ing" ). When parents go on a vacation, they spend their time eating three (plural_noun) a day, and fathers play golf, and mothers sit around (verb_ending_in_ing) Last summer, my little brother fell in a/an (noun) and got poison (plant) all over his (part_of_the_body) My family is going to go to (place) and I will practice (verb_ending_in_ing) Parents need vacations more than kids because parents are always very (adjective) and because they have to work (number) hours every day all year making enough (plural_noun) to pay for the vacation.";
 
 string[] storyWords = originalStory.Split(' ');
-Console.WriteLine(storyWords);
+//Console.WriteLine(storyWords);
 //string newStory;//end story
 // storyWords;
 string newStory = "";
 foreach(string word in storyWords)//for(int i = 0; i < storyWords.Length; i++);
 {
-    //string storyWords;
-    if(word.StartsWith("(")/* && word.EndsWith(")")&& word.Contains(" ")*/)
+    //string storyWords; // SAVANNA keep string 21 as is so it shows all questions and 29 so it removes the few that have ).. 
+    if(word.StartsWith("(")) //&& word.EndsWith(")")) //|| word.StartsWith("(") && word.EndsWith(").")) // || word.StartsWith("(") && word.EndsWith(").")) //&& word.Contains(" ")*/)
     {
         //bool replacementWord = word.StartsWith("(") && word.EndsWith(")");
         //string replacementWord = word.Trim(new string[] {'(',')'});
-       string isolateWord = word.Trim(new char[] {'(',')'});
+       string isolateWord = word.Trim(new char[] {'(',')'}); //KEEP
        //storyWords = storyWords.Replace('_', out " ");
        //replacementWord = replacementWord.Remove("_"," ");
        //string storyWords = 
-       string isolateWordAgain = isolateWord.Replace("_"," ");// (")."," ") //isolateWord.Remove()
-       string requestedWord = isolateWordAgain.Replace(").","");
-        Console.WriteLine($"Please give me a/an {requestedWord}");
-        string newWord = Console.ReadLine();
+       string isolateWordAgain = isolateWord.Replace(").", ""); //KEEP
+       string requestedWord = isolateWordAgain.Replace("_"," ");// (")."," ") //isolateWord.Remove() //KEEP
+       //0string requestedWord = isolated.Replace(")","");
+       Console.WriteLine();
+       if(requestedWord.Contains("adjective"))
+       {
+        Console.WriteLine($"Please give me an {requestedWord}: ");
+       }
+       else
+       {
+        Console.WriteLine($"Please give me a {requestedWord}: ");
+       }
+        
+        string newWord = Console.ReadLine( );
         //storyWords = string.Join(" ");
         //string newStory = storyWords.Replace()
-        newStory = newStory + newWord + " ";
+        newStory = newStory + newWord/*(" ")*/ + " ";
    }
-   //newStory = storyWords.Replace()
+   if(!word.StartsWith("("))
+   {
+        newStory = newStory + word + " " ; //add word to new story along with a space. Space " ". 
+   }
+   //if(!word.EndsWith('.'))
+   //{
+    //    newStory += ".";
+   //}
 } 
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("Here is your Madlibs:");
+Console.WriteLine("---------------------");
 Console.WriteLine(newStory);
+
 //string finalStory = string.Join(" ", storyWords);
 //Console.WriteLine(storyWords);
 //string storyWords = string.Join(" ");
